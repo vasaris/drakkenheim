@@ -32,7 +32,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["acid burn"] = {
 	name : "Acid Burn",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 186]],
 	level : 0,
 	school : "Evoc",
@@ -47,7 +47,7 @@ SpellsList["acid burn"] = {
 
 SpellsList["bacterial barrage"] = {
 	name : "Bacterial Barrage",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 186]],
 	level : 0,
 	school : "Necro",
@@ -61,7 +61,7 @@ SpellsList["bacterial barrage"] = {
 
 SpellsList["acrid orb"] = {
 	name : "Acrid Orb",
-	classes : ["apothecary", "ranger", "sorcerer", "wizard"],
+	classes : ["ranger", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Evoc",
@@ -77,7 +77,7 @@ SpellsList["acrid orb"] = {
 
 SpellsList["envenom"] = {
 	name : "Envenom",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Conj",
@@ -93,7 +93,7 @@ SpellsList["envenom"] = {
 
 SpellsList["infect"] = {
 	name : "Infect",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Necro",
@@ -109,7 +109,7 @@ SpellsList["infect"] = {
 
 SpellsList["stream of consumption"] = {
 	name : "Stream of Consumption",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Necro",
@@ -124,7 +124,7 @@ SpellsList["stream of consumption"] = {
 
 SpellsList["toxic shield"] = {
 	name : "Toxic Shield",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Conj",
@@ -139,7 +139,7 @@ SpellsList["toxic shield"] = {
 
 SpellsList["caustic grip"] = {
 	name : "Caustic Grip",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 188]],
 	level : 2,
 	school : "Evoc",
@@ -153,7 +153,7 @@ SpellsList["caustic grip"] = {
 
 SpellsList["invigorate"] = {
 	name : "Invigorate",
-	classes : ["apothecary", "bard", "cleric", "wizard"],
+	classes : ["bard", "cleric", "wizard"],
 	source : [["SCGD", 188]],
 	level : 2,
 	school : "Abjur",
@@ -168,7 +168,7 @@ SpellsList["invigorate"] = {
 
 SpellsList["ocular necrosis"] = {
 	name : "Ocular Necrosis",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 188]],
 	level : 2,
 	school : "Necro",
@@ -198,7 +198,7 @@ SpellsList["summon the thing with the writhing tail"] = {
 
 SpellsList["vitriol ichor"] = {
 	name : "Vitriol Ichor",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 191]],
 	level : 4,
 	school : "Trans",

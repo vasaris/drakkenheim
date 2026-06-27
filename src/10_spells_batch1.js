@@ -32,7 +32,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["poison needle"] = {
 	name : "Poison Needle",
-	classes : ["apothecary", "druid", "sorcerer", "warlock", "wizard"],
+	classes : ["druid", "sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 186]],
 	level : 0,
 	school : "Conj",
@@ -46,7 +46,7 @@ SpellsList["poison needle"] = {
 
 SpellsList["biohazard"] = {
 	name : "Biohazard",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 2,
 	school : "Conj",
@@ -78,7 +78,7 @@ SpellsList["grasping ghost"] = {
 
 SpellsList["purge contamination"] = {
 	name : "Purge Contamination",
-	classes : ["apothecary", "cleric", "druid", "paladin", "wizard"],
+	classes : ["cleric", "druid", "paladin", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Abjur",

@@ -31,7 +31,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["corrosive blast"] = {
 	name : "Corrosive Blast",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 188]],
 	level : 3,
 	school : "Evoc",
@@ -47,7 +47,7 @@ SpellsList["corrosive blast"] = {
 
 SpellsList["fetid blade"] = {
 	name : "Fetid Blade",
-	classes : ["apothecary", "ranger", "sorcerer", "wizard"],
+	classes : ["ranger", "sorcerer", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
@@ -63,7 +63,7 @@ SpellsList["fetid blade"] = {
 
 SpellsList["pestilence"] = {
 	name : "Pestilence",
-	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
+	classes : ["cleric", "druid", "warlock", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Necro",
@@ -79,7 +79,7 @@ SpellsList["pestilence"] = {
 
 SpellsList["tranquilizing toxin"] = {
 	name : "Tranquilizing Toxin",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
@@ -94,7 +94,7 @@ SpellsList["tranquilizing toxin"] = {
 
 SpellsList["blood worm"] = {
 	name : "Blood Worm",
-	classes : ["apothecary", "warlock", "wizard"],
+	classes : ["warlock", "wizard"],
 	source : [["SCGD", 189]],
 	level : 4,
 	school : "Necro",
@@ -110,7 +110,7 @@ SpellsList["blood worm"] = {
 
 SpellsList["corpse explosion"] = {
 	name : "Corpse Explosion",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 189]],
 	level : 4,
 	school : "Necro",
@@ -126,7 +126,7 @@ SpellsList["corpse explosion"] = {
 
 SpellsList["corrupting spores"] = {
 	name : "Corrupting Spores",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 190]],
 	level : 4,
 	school : "Necro",
@@ -143,7 +143,7 @@ SpellsList["corrupting spores"] = {
 // Book prints "above 5th" but Last Rites is a 4th-level spell — treated as a book typo, normalized to "above 4th".
 SpellsList["last rites"] = {
 	name : "Last Rites",
-	classes : ["apothecary", "cleric", "paladin"],
+	classes : ["cleric", "paladin"],
 	source : [["SCGD", 190]],
 	level : 4,
 	school : "Abjur",

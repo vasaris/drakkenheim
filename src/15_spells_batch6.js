@@ -32,7 +32,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["contamination immunity"] = {
 	name : "Contamination Immunity",
-	classes : ["apothecary", "cleric", "druid", "paladin", "wizard"],
+	classes : ["cleric", "druid", "paladin", "wizard"],
 	source : [["SCGD", 193]],
 	level : 7,
 	school : "Abjur",
@@ -47,7 +47,7 @@ SpellsList["contamination immunity"] = {
 
 SpellsList["grievous wounds"] = {
 	name : "Grievous Wounds",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 7,
 	school : "Necro",
@@ -62,7 +62,7 @@ SpellsList["grievous wounds"] = {
 
 SpellsList["miasma"] = {
 	name : "Miasma",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 193]],
 	level : 7,
 	school : "Evoc",
@@ -78,7 +78,7 @@ SpellsList["miasma"] = {
 
 SpellsList["breath of nightshade"] = {
 	name : "Breath of Nightshade",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 8,
 	school : "Conj",
@@ -94,7 +94,7 @@ SpellsList["breath of nightshade"] = {
 
 SpellsList["plague wind"] = {
 	name : "Plague Wind",
-	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
+	classes : ["cleric", "druid", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 8,
 	school : "Conj",
@@ -110,7 +110,7 @@ SpellsList["plague wind"] = {
 
 SpellsList["pandemic"] = {
 	name : "Pandemic",
-	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
+	classes : ["cleric", "druid", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 9,
 	school : "Conj",
@@ -126,7 +126,7 @@ SpellsList["pandemic"] = {
 
 SpellsList["touch of death"] = {
 	name : "Touch of Death",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 9,
 	school : "Necro",

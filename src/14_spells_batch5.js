@@ -34,7 +34,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["nerve gas"] = {
 	name : "Nerve Gas",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 191]],
 	level : 5,
 	school : "Necro",
@@ -50,7 +50,7 @@ SpellsList["nerve gas"] = {
 
 SpellsList["neutralizing field"] = {
 	name : "Neutralizing Field",
-	classes : ["apothecary", "cleric", "druid", "paladin", "sorcerer", "wizard"],
+	classes : ["cleric", "druid", "paladin", "sorcerer", "wizard"],
 	source : [["SCGD", 192]],
 	level : 5,
 	school : "Abjur",
@@ -101,7 +101,7 @@ SpellsList["septic shock"] = {
 
 SpellsList["vile necrosis"] = {
 	name : "Vile Necrosis",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 192]],
 	level : 6,
 	school : "Necro",

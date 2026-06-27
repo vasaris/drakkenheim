@@ -62,7 +62,7 @@ SpellsList["controlled mutation"] = {
 
 SpellsList["venomous aura"] = {
 	name : "Venomous Aura",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Trans",
@@ -77,7 +77,7 @@ SpellsList["venomous aura"] = {
 
 SpellsList["poison wave"] = {
 	name : "Poison Wave",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 190]],
 	level : 4,
 	school : "Conj",
@@ -93,7 +93,7 @@ SpellsList["poison wave"] = {
 
 SpellsList["toxic barrage"] = {
 	name : "Toxic Barrage",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 192]],
 	level : 5,
 	school : "Conj",

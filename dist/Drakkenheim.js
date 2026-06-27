@@ -36,7 +36,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["poison needle"] = {
 	name : "Poison Needle",
-	classes : ["apothecary", "druid", "sorcerer", "warlock", "wizard"],
+	classes : ["druid", "sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 186]],
 	level : 0,
 	school : "Conj",
@@ -50,7 +50,7 @@ SpellsList["poison needle"] = {
 
 SpellsList["biohazard"] = {
 	name : "Biohazard",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 2,
 	school : "Conj",
@@ -82,7 +82,7 @@ SpellsList["grasping ghost"] = {
 
 SpellsList["purge contamination"] = {
 	name : "Purge Contamination",
-	classes : ["apothecary", "cleric", "druid", "paladin", "wizard"],
+	classes : ["cleric", "druid", "paladin", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Abjur",
@@ -166,7 +166,7 @@ SpellsList["controlled mutation"] = {
 
 SpellsList["venomous aura"] = {
 	name : "Venomous Aura",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Trans",
@@ -181,7 +181,7 @@ SpellsList["venomous aura"] = {
 
 SpellsList["poison wave"] = {
 	name : "Poison Wave",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 190]],
 	level : 4,
 	school : "Conj",
@@ -197,7 +197,7 @@ SpellsList["poison wave"] = {
 
 SpellsList["toxic barrage"] = {
 	name : "Toxic Barrage",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 192]],
 	level : 5,
 	school : "Conj",
@@ -328,7 +328,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["corrosive blast"] = {
 	name : "Corrosive Blast",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 188]],
 	level : 3,
 	school : "Evoc",
@@ -344,7 +344,7 @@ SpellsList["corrosive blast"] = {
 
 SpellsList["fetid blade"] = {
 	name : "Fetid Blade",
-	classes : ["apothecary", "ranger", "sorcerer", "wizard"],
+	classes : ["ranger", "sorcerer", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
@@ -360,7 +360,7 @@ SpellsList["fetid blade"] = {
 
 SpellsList["pestilence"] = {
 	name : "Pestilence",
-	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
+	classes : ["cleric", "druid", "warlock", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Necro",
@@ -376,7 +376,7 @@ SpellsList["pestilence"] = {
 
 SpellsList["tranquilizing toxin"] = {
 	name : "Tranquilizing Toxin",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
@@ -391,7 +391,7 @@ SpellsList["tranquilizing toxin"] = {
 
 SpellsList["blood worm"] = {
 	name : "Blood Worm",
-	classes : ["apothecary", "warlock", "wizard"],
+	classes : ["warlock", "wizard"],
 	source : [["SCGD", 189]],
 	level : 4,
 	school : "Necro",
@@ -407,7 +407,7 @@ SpellsList["blood worm"] = {
 
 SpellsList["corpse explosion"] = {
 	name : "Corpse Explosion",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 189]],
 	level : 4,
 	school : "Necro",
@@ -423,7 +423,7 @@ SpellsList["corpse explosion"] = {
 
 SpellsList["corrupting spores"] = {
 	name : "Corrupting Spores",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 190]],
 	level : 4,
 	school : "Necro",
@@ -440,7 +440,7 @@ SpellsList["corrupting spores"] = {
 // Book prints "above 5th" but Last Rites is a 4th-level spell — treated as a book typo, normalized to "above 4th".
 SpellsList["last rites"] = {
 	name : "Last Rites",
-	classes : ["apothecary", "cleric", "paladin"],
+	classes : ["cleric", "paladin"],
 	source : [["SCGD", 190]],
 	level : 4,
 	school : "Abjur",
@@ -479,7 +479,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["acid burn"] = {
 	name : "Acid Burn",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 186]],
 	level : 0,
 	school : "Evoc",
@@ -494,7 +494,7 @@ SpellsList["acid burn"] = {
 
 SpellsList["bacterial barrage"] = {
 	name : "Bacterial Barrage",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 186]],
 	level : 0,
 	school : "Necro",
@@ -508,7 +508,7 @@ SpellsList["bacterial barrage"] = {
 
 SpellsList["acrid orb"] = {
 	name : "Acrid Orb",
-	classes : ["apothecary", "ranger", "sorcerer", "wizard"],
+	classes : ["ranger", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Evoc",
@@ -524,7 +524,7 @@ SpellsList["acrid orb"] = {
 
 SpellsList["envenom"] = {
 	name : "Envenom",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Conj",
@@ -540,7 +540,7 @@ SpellsList["envenom"] = {
 
 SpellsList["infect"] = {
 	name : "Infect",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Necro",
@@ -556,7 +556,7 @@ SpellsList["infect"] = {
 
 SpellsList["stream of consumption"] = {
 	name : "Stream of Consumption",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Necro",
@@ -571,7 +571,7 @@ SpellsList["stream of consumption"] = {
 
 SpellsList["toxic shield"] = {
 	name : "Toxic Shield",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 187]],
 	level : 1,
 	school : "Conj",
@@ -586,7 +586,7 @@ SpellsList["toxic shield"] = {
 
 SpellsList["caustic grip"] = {
 	name : "Caustic Grip",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 188]],
 	level : 2,
 	school : "Evoc",
@@ -600,7 +600,7 @@ SpellsList["caustic grip"] = {
 
 SpellsList["invigorate"] = {
 	name : "Invigorate",
-	classes : ["apothecary", "bard", "cleric", "wizard"],
+	classes : ["bard", "cleric", "wizard"],
 	source : [["SCGD", 188]],
 	level : 2,
 	school : "Abjur",
@@ -615,7 +615,7 @@ SpellsList["invigorate"] = {
 
 SpellsList["ocular necrosis"] = {
 	name : "Ocular Necrosis",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 188]],
 	level : 2,
 	school : "Necro",
@@ -645,7 +645,7 @@ SpellsList["summon the thing with the writhing tail"] = {
 
 SpellsList["vitriol ichor"] = {
 	name : "Vitriol Ichor",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 191]],
 	level : 4,
 	school : "Trans",
@@ -685,7 +685,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["nerve gas"] = {
 	name : "Nerve Gas",
-	classes : ["apothecary", "sorcerer", "wizard"],
+	classes : ["sorcerer", "wizard"],
 	source : [["SCGD", 191]],
 	level : 5,
 	school : "Necro",
@@ -701,7 +701,7 @@ SpellsList["nerve gas"] = {
 
 SpellsList["neutralizing field"] = {
 	name : "Neutralizing Field",
-	classes : ["apothecary", "cleric", "druid", "paladin", "sorcerer", "wizard"],
+	classes : ["cleric", "druid", "paladin", "sorcerer", "wizard"],
 	source : [["SCGD", 192]],
 	level : 5,
 	school : "Abjur",
@@ -752,7 +752,7 @@ SpellsList["septic shock"] = {
 
 SpellsList["vile necrosis"] = {
 	name : "Vile Necrosis",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 192]],
 	level : 6,
 	school : "Necro",
@@ -807,7 +807,7 @@ if (typeof SourceList["SCGD"] === "undefined") {
 
 SpellsList["contamination immunity"] = {
 	name : "Contamination Immunity",
-	classes : ["apothecary", "cleric", "druid", "paladin", "wizard"],
+	classes : ["cleric", "druid", "paladin", "wizard"],
 	source : [["SCGD", 193]],
 	level : 7,
 	school : "Abjur",
@@ -822,7 +822,7 @@ SpellsList["contamination immunity"] = {
 
 SpellsList["grievous wounds"] = {
 	name : "Grievous Wounds",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 7,
 	school : "Necro",
@@ -837,7 +837,7 @@ SpellsList["grievous wounds"] = {
 
 SpellsList["miasma"] = {
 	name : "Miasma",
-	classes : ["apothecary", "druid", "sorcerer", "wizard"],
+	classes : ["druid", "sorcerer", "wizard"],
 	source : [["SCGD", 193]],
 	level : 7,
 	school : "Evoc",
@@ -853,7 +853,7 @@ SpellsList["miasma"] = {
 
 SpellsList["breath of nightshade"] = {
 	name : "Breath of Nightshade",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 8,
 	school : "Conj",
@@ -869,7 +869,7 @@ SpellsList["breath of nightshade"] = {
 
 SpellsList["plague wind"] = {
 	name : "Plague Wind",
-	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
+	classes : ["cleric", "druid", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 8,
 	school : "Conj",
@@ -885,7 +885,7 @@ SpellsList["plague wind"] = {
 
 SpellsList["pandemic"] = {
 	name : "Pandemic",
-	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
+	classes : ["cleric", "druid", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 9,
 	school : "Conj",
@@ -901,7 +901,7 @@ SpellsList["pandemic"] = {
 
 SpellsList["touch of death"] = {
 	name : "Touch of Death",
-	classes : ["apothecary", "sorcerer", "warlock", "wizard"],
+	classes : ["sorcerer", "warlock", "wizard"],
 	source : [["SCGD", 193]],
 	level : 9,
 	school : "Necro",
@@ -1242,3 +1242,147 @@ AddSubClass("sorcerer", "delerium soul", {
 		}
 	}
 });
+
+// ===== src/50_class_apothecary.js =====
+/*	-INFORMATION-
+	Subject:	Class (Apothecary — spellcasting core)
+	Effect:		Apothecary (Sebastian Crowe's Guide to Drakkenheim, p.134) — Intelligence caster.
+				The Apothecary uses WARLOCK-STYLE Pact Magic: every spell slot is the SAME level,
+				few slots, regained on a SHORT or long rest. The slot counts differ from the warlock,
+				so no built-in spellcastingFactor matches -> a custom spellcastingTable is used.
+	Edition:	D&D 5e (2014) — for MPMB's 2014 sheet.
+	Code by:	(community build)
+	Date:		2026-06-27 (sheet v13)
+*/
+
+if (typeof SourceList["SCGD"] === "undefined") {
+	SourceList["SCGD"] = {
+		name : "Sebastian Crowe's Guide to Drakkenheim",
+		abbreviation : "SCGD",
+		group : "Ghostfire Gaming",
+		date : "2024/01/01",
+		url : "https://ghostfiregaming.com/product/sebastian-crowes-guide-to-drakkenheim-hardcover-book/"
+	};
+}
+
+ClassList["apothecary"] = {
+	name : "Apothecary",
+	regExpSearch : /^(?=.*apothecary).*$/i,
+	source : [["SCGD", 134]],
+	primaryAbility : "Intelligence",
+	prereqs : "Intelligence 13",
+	die : 8,
+	// --- proficiency / progression stubs (rough; refine when finishing the class) ---
+	improvements : [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5], // ASI at 4/8/12/16/19 (cumulative) — stub
+	saves : ["Int", "Wis"],
+	subclasses : ["Occult Practice", []], // REQUIRED by MPMB (Source Material + Class Selection iterate oClass.subclasses). Empty stub; real Occult Practices attach later via AddSubClass("apothecary", ...).
+	attacks : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], // REQUIRED; attacks per turn by level (Apothecary has no Extra Attack -> 1 at all levels).
+	// skills drives the "choose 2" picker (skillstxt was tooltip-only). Plain text (no toUni) so the standalone validator stays clean; the real class can wrap "Apothecary" in toUni() for the underline.
+	skills : ["\n\nApothecary: Choose two from Arcana, History, Investigation, Medicine, Nature, and Religion.", "\n\nApothecary: Choose one from Arcana, History, Investigation, Medicine, Nature, and Religion."],
+	armor : [[true, true, false, false], [true, true, false, false]], // light, medium (no heavy, no shield)
+	weapons : [[true, false, ["short sword", "hand crossbow"]], [true, false, ["short sword", "hand crossbow"]]], // simple + shortswords + hand crossbows
+	equipment : "Apothecary starting equipment — see SCGD p.134 (stub)",
+
+	// =================== SPELLCASTING ===================
+	abilitySave : 4, // 4 = Intelligence (index into [Str,Dex,Con,Int,Wis,Cha]); Int is the apothecary's spell ability
+
+	// spellcastingFactor is REQUIRED even with a custom table (it only affects MULTICLASS slot math, which is out of scope here).
+	// Following the real Warden-class pattern: a number + a custom single-class spellcastingTable below.
+	spellcastingFactor : 2,
+
+	// Explicit Apothecary spell list, transcribed from the book's "Apothecary Spell List" (SCGD p.139).
+	// Variant A: the class list lives ONLY here; individual spells no longer carry an "apothecary" tag.
+	// Core (non-Drakkenheim) spells use their all_WotC keys (2014 naming, e.g. "melf's acid arrow", "tenser's floating disk").
+	// Levels 0-9: 6th-9th are for the Greater Formula (Mystic Arcanum) picks (gated by a feature later).
+	// Excludes Contaminated Spells and the two research spells (neutralizing field, contamination immunity) per the book.
+	spellcastingList : {
+		spells : [
+			// Cantrips
+			"acid burn", "acid splash", "bacterial barrage", "chill touch", "guidance", "light", "mending", "message", "poison needle", "poison spray", "resistance", "shocking grasp", "spare the dying", "thaumaturgy",
+			// 1st
+			"acrid orb", "alarm", "comprehend languages", "create or destroy water", "cure wounds", "detect evil and good", "detect magic", "detect poison and disease", "envenom", "false life", "feather fall", "tenser's floating disk", "fog cloud", "grease", "healing word", "tasha's hideous laughter", "identify", "illusory script", "infect", "jump", "purify food and drink", "sleep", "stream of consumption", "toxic shield", "unseen servant",
+			// 2nd
+			"melf's acid arrow", "aid", "biohazard", "blindness/deafness", "caustic grip", "enhance ability", "enlarge/reduce", "gentle repose", "grasping ghost", "hold person", "invigorate", "lesser restoration", "ocular necrosis", "protection from poison", "ray of enfeeblement", "see invisibility", "silence", "spider climb", "web",
+			// 3rd
+			"bestow curse", "corrosive blast", "dispel magic", "fear", "fetid blade", "gaseous form", "glyph of warding", "haste", "hypnotic pattern", "magic circle", "mass healing word", "pestilence", "purge contamination", "protection from energy", "remove curse", "revivify", "sending", "slow", "speak with dead", "stinking cloud", "tranquilizing toxin", "vampiric touch", "venomous aura", "water breathing",
+			// 4th
+			"blight", "blood worm", "corpse explosion", "corrupting spores", "death ward", "evard's black tentacles", "freedom of movement", "last rites", "poison wave", "polymorph", "stoneskin", "vitriol ichor",
+			// 5th
+			"acid rain", "antilife shell", "cloudkill", "contact other plane", "greater restoration", "hold monster", "mass cure wounds", "nerve gas", "raise dead", "scrying", "rary's telepathic bond", "septic shock", "teleportation circle", "toxic barrage",
+			// 6th (Greater Formula)
+			"chain lightning", "circle of death", "create undead", "disintegrate", "eyebite", "flesh to stone", "globe of invulnerability", "harm", "heal", "mephitic vapors", "true seeing", "vile necrosis",
+			// 7th (Greater Formula)
+			"etherealness", "finger of death", "forcecage", "grievous wounds", "miasma", "plane shift", "prismatic spray", "regenerate", "resurrection",
+			// 8th (Greater Formula)
+			"antimagic field", "antipathy/sympathy", "breath of nightshade", "clone", "dominate monster", "feeblemind", "mind blank", "plague wind", "power word stun",
+			// 9th (Greater Formula)
+			"astral projection", "foresight", "mass heal", "pandemic", "power word kill", "time stop", "touch of death", "true polymorph", "true resurrection"
+		]
+	},
+
+	spellcastingKnown : {
+		cantrips : [3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], // Cantrips Known per level (book table)
+		spells : "list",   // prepares from the apothecary list above
+		// Prepared COUNT is overridden to the book formula (Int + full level) via calcChanges.spellCalc in the "apothecary magic" feature below.
+		prepared : true
+	},
+
+	// --- Custom warlock-style Pact Magic table (book p.134) ---
+	// Format (verified against the working Warden class, PbFarmer): 9 columns = SPELL LEVELS 1..9
+	//   (column index 0 = number of 1st-level slots, index 1 = 2nd-level, ... index 4 = 5th-level).
+	//   Rows = character levels; index 0 = level 1 ... index 19 = level 20 (20 rows).
+	// Apothecary: ALL slots are the SAME level, capped at 5th. Counts 1->20: 1,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6.
+	// !! IN-SHEET VERIFY: a level-1 apothecary should show exactly 1 first-level slot; a level-5 should show 3 third-level slots.
+	//    If the slots appear shifted by one character level, the engine wants index0=level0 -> prepend a [0,0,0,0,0,0,0,0,0] row.
+	spellcastingTable : [
+		[1, 0, 0, 0, 0, 0, 0, 0, 0], // lvl 1:  1x 1st
+		[2, 0, 0, 0, 0, 0, 0, 0, 0], // lvl 2:  2x 1st
+		[0, 2, 0, 0, 0, 0, 0, 0, 0], // lvl 3:  2x 2nd
+		[0, 2, 0, 0, 0, 0, 0, 0, 0], // lvl 4:  2x 2nd
+		[0, 0, 3, 0, 0, 0, 0, 0, 0], // lvl 5:  3x 3rd
+		[0, 0, 3, 0, 0, 0, 0, 0, 0], // lvl 6:  3x 3rd
+		[0, 0, 0, 3, 0, 0, 0, 0, 0], // lvl 7:  3x 4th
+		[0, 0, 0, 3, 0, 0, 0, 0, 0], // lvl 8:  3x 4th
+		[0, 0, 0, 0, 4, 0, 0, 0, 0], // lvl 9:  4x 5th
+		[0, 0, 0, 0, 4, 0, 0, 0, 0], // lvl 10: 4x 5th
+		[0, 0, 0, 0, 4, 0, 0, 0, 0], // lvl 11: 4x 5th
+		[0, 0, 0, 0, 4, 0, 0, 0, 0], // lvl 12: 4x 5th
+		[0, 0, 0, 0, 5, 0, 0, 0, 0], // lvl 13: 5x 5th
+		[0, 0, 0, 0, 5, 0, 0, 0, 0], // lvl 14: 5x 5th
+		[0, 0, 0, 0, 5, 0, 0, 0, 0], // lvl 15: 5x 5th
+		[0, 0, 0, 0, 5, 0, 0, 0, 0], // lvl 16: 5x 5th
+		[0, 0, 0, 0, 6, 0, 0, 0, 0], // lvl 17: 6x 5th
+		[0, 0, 0, 0, 6, 0, 0, 0, 0], // lvl 18: 6x 5th
+		[0, 0, 0, 0, 6, 0, 0, 0, 0], // lvl 19: 6x 5th
+		[0, 0, 0, 0, 6, 0, 0, 0, 0]  // lvl 20: 6x 5th
+	],
+
+	// REQUIRED by MPMB. This file adds only the spellcasting feature (it carries the prepared-count override).
+	// Occult Practices, Esoteric Theories, and Greater Formula come later.
+	features : {
+		"apothecary magic" : {
+			name : "Apothecary Magic",
+			source : [["SCGD", 134]],
+			minlevel : 1,
+			description : "\n   I prepare Intelligence modifier + my apothecary level apothecary spells (minimum of one). All my apothecary spell slots are the SAME level and are regained on a SHORT or long rest (track the short rest manually).",
+			// Override the prepared-spell COUNT to the book formula (SCGD p.135): Int mod + FULL apothecary level (min 1).
+			// MPMB's half-caster default is Int + floor(level/2); spellCalc adds the missing ceil(level/2) = level - floor(level/2) on "prepare".
+			// spellCalc syntax confirmed from real all_WotC code (Rod of the Pact Keeper, Blackstaff, etc.): function(type, spellcasters, ability) returning a number added to the calc for that type.
+			calcChanges : {
+				spellCalc : [
+					function (type, spellcasters, ability) {
+						if (type !== "prepare" || spellcasters.indexOf("apothecary") === -1) return;
+						var c = classes.known.apothecary;
+						if (!c) return;
+						return c.level - Math.floor(c.level / 2);
+					},
+					"I prepare a number of apothecary spells equal to my Intelligence modifier + my apothecary level (minimum of one)."
+				]
+			}
+		}
+	}
+
+	// Caveat the sheet does NOT enforce (also stated in the Apothecary Magic feature): all spell slots are the SAME
+	// level and recover on a SHORT or long rest — track the short rest by hand.
+	// Still to add: Occult Practices (subclasses), Esoteric Theories, and Greater Formula.
+};
