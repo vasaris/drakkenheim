@@ -67,7 +67,7 @@ SpellsList["biohazard"] = {
 SpellsList["grasping ghost"] = {
 	name : "Grasping Ghost",
 	classes : ["sorcerer", "warlock", "wizard"],
-	source : [["SCGD", 187]],
+	source : [["SCGD", 188]],
 	level : 2,
 	school : "Necro",
 	time : "1 a",
@@ -83,7 +83,7 @@ SpellsList["grasping ghost"] = {
 SpellsList["purge contamination"] = {
 	name : "Purge Contamination",
 	classes : ["apothecary", "cleric", "druid", "paladin", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Abjur",
 	time : "1 h",
@@ -98,7 +98,7 @@ SpellsList["purge contamination"] = {
 SpellsList["acid rain"] = {
 	name : "Acid Rain",
 	classes : ["druid", "sorcerer", "wizard"],
-	source : [["SCGD", 190]],
+	source : [["SCGD", 191]],
 	level : 5,
 	school : "Conj",
 	time : "1 a",
@@ -167,7 +167,7 @@ SpellsList["controlled mutation"] = {
 SpellsList["venomous aura"] = {
 	name : "Venomous Aura",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 191]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Trans",
 	time : "1 bns",
@@ -182,7 +182,7 @@ SpellsList["venomous aura"] = {
 SpellsList["poison wave"] = {
 	name : "Poison Wave",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 189]],
+	source : [["SCGD", 190]],
 	level : 4,
 	school : "Conj",
 	time : "1 a",
@@ -292,13 +292,13 @@ SpellsList["summon delerium elemental"] = {
 SpellsList["contaminated hands"] = {
 	name : "Contaminated Hands",
 	classes : ["sorcerer", "wizard"],
-	source : [["SCGD", 196]],
+	source : [["SCGD", 197]],
 	level : 5,
 	school : "Evoc",
 	time : "1 a",
 	range : "120 ft",
 	components : "V,S,M",
-	compMaterial : "a delerium fragment worth 100 gp",
+	compMaterial : "a delerium fragment worth 100 gp, consumed",
 	duration : "Conc, 1 min",
 	description : "[Contaminated: +1 Cont. Lvl] Create TWO Large octarine force hands (AC 20, HP = my max each); move 60 ft & each performs a forceful-hand effect; if either hits 0 HP the spell ends",
 	descriptionFull : "Contaminated: casting this spell gives you 1 Contamination Level. You create two Large hands of octarine force (each AC 20, HP equal to your hit point maximum, Strength 26, Dexterity 10). When you cast and as an action on later turns you move the hands up to 60 feet and have each take a forceful-hand effect (clenched-fist strike, grasp/grapple, push, or interpose), similar to a two-handed Arcane Hand. If either hand drops to 0 hit points, the spell ends."
@@ -345,7 +345,7 @@ SpellsList["corrosive blast"] = {
 SpellsList["fetid blade"] = {
 	name : "Fetid Blade",
 	classes : ["apothecary", "ranger", "sorcerer", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
 	time : "1 bns",
@@ -361,7 +361,7 @@ SpellsList["fetid blade"] = {
 SpellsList["pestilence"] = {
 	name : "Pestilence",
 	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Necro",
 	time : "1 a",
@@ -377,7 +377,7 @@ SpellsList["pestilence"] = {
 SpellsList["tranquilizing toxin"] = {
 	name : "Tranquilizing Toxin",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
 	time : "1 a",
@@ -424,7 +424,7 @@ SpellsList["corpse explosion"] = {
 SpellsList["corrupting spores"] = {
 	name : "Corrupting Spores",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 189]],
+	source : [["SCGD", 190]],
 	level : 4,
 	school : "Necro",
 	time : "1 bns",
@@ -437,6 +437,7 @@ SpellsList["corrupting spores"] = {
 	descriptionFull : "Three poison mushrooms sprout in a 5-foot square within range. A creature that starts its turn within 10 feet of the patch makes a Constitution save or takes 1d8 poison damage per mushroom and is poisoned until the start of its next turn. On your turn you can use a bonus action to sprout one more mushroom in the patch." + "\n   At Higher Levels: one extra mushroom in the initial patch for each slot level above 4th."
 };
 
+// Book prints "above 5th" but Last Rites is a 4th-level spell — treated as a book typo, normalized to "above 4th".
 SpellsList["last rites"] = {
 	name : "Last Rites",
 	classes : ["apothecary", "cleric", "paladin"],
@@ -490,8 +491,8 @@ AddSubClass("druid", "circle of contamination", {
 			              "\n   (These leveled spells are Contaminated Spells; add the Contaminated Spells script to see them on the sheet)",
 			spellcastingBonus : [{
 				name : "Circle of Contamination",
-				spells : ["chill touch"],
-				selection : ["chill touch"],
+				spells : ["chill touch", "poison needle"],
+				selection : ["chill touch", "poison needle"],
 				firstCol : "atwill"
 			}]
 		},
@@ -575,11 +576,11 @@ if (typeof SourceList["SCGD"] === "undefined") {
 AddSubClass("wizard", "malfeasant", {
 	regExpSearch : /malfeasant/i,
 	subname : "Malfeasant",
-	source : [["SCGD", 176]],
+	source : [["SCGD", 177]],
 	features : {
 		"subclassfeature2" : {
 			name : "Forbidden Study",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 2,
 			description : "\n   Whenever I gain a wizard level I can add one Contaminated Spell to my spellbook," +
 			              "\n   in addition to the two wizard spells I normally learn; I develop it through my own research" +
@@ -587,7 +588,7 @@ AddSubClass("wizard", "malfeasant", {
 		},
 		"subclassfeature2.1" : {
 			name : "Anomalous Materials",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 2,
 			description : "\n   I can cast a Contaminated Spell without gaining a Contamination Level; delerium material" +
 			              "\n   components aren't consumed (but I still provide them). Uses = my proficiency bonus, regained on a long rest",
@@ -596,21 +597,21 @@ AddSubClass("wizard", "malfeasant", {
 		},
 		"subclassfeature2.2" : {
 			name : "Horrific Potential",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 2,
 			description : "\n   If I undergo a Monstrous Transformation, the GM-chosen form must have CR at least half my level" +
 			              "\n   (rounded down) and no greater than my level"
 		},
 		"subclassfeature6" : {
 			name : "Expel Contaminants",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 6,
 			description : "\n   When I finish a long rest I can reduce my Contamination Level by half my proficiency bonus (rounded down)",
 			recovery : "long rest"
 		},
 		"subclassfeature6.1" : {
 			name : "Increased Threshold",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 6,
 			description : "\n   I gain proficiency in Constitution saving throws and resistance to necrotic damage" +
 			              "\n   For Contamination Symptoms I count as having half my current Contamination Level (round down)," +
@@ -621,20 +622,20 @@ AddSubClass("wizard", "malfeasant", {
 		},
 		"subclassfeature10" : {
 			name : "Contaminated Casting",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 10,
 			description : "\n   When I cast a spell that scales with higher slots, I can raise its level without a higher slot;" +
 			              "\n   I gain 1 Contamination Level per level raised. Not usable on Contaminated Spells, and not above my highest slot level"
 		},
 		"subclassfeature10.1" : {
 			name : "Stabilizing Focus",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 10,
 			description : "\n   While concentrating on a spell I ignore the Symptoms of any Contamination Levels I have, except a Monstrous Transformation"
 		},
 		"subclassfeature14" : {
 			name : "Apotheosis in Flesh",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 14,
 			description : "\n   If I undergo a Monstrous Transformation I keep control of the new form for 1 minute" +
 			              "\n   Unless I die I revert after 24 hours; on reverting I gain a long rest's benefits and all Contamination Levels are removed" +
@@ -669,13 +670,13 @@ if (typeof SourceList["SCGD"] === "undefined") {
 AddSubClass("sorcerer", "delerium soul", {
 	regExpSearch : /^(?=.*delerium)(?=.*soul).*$/i,
 	subname : "Delerium Soul",
-	source : [["SCGD", 170]],
+	source : [["SCGD", 171]],
 	// Defined core spells auto-populate at the correct levels; undefined Contaminated Spells are skipped until a spells script is added
 	spellcastingExtra : ["faerie fire", "comet shards", "controlled mutation", "grasping ghost", "vanish to the space between worlds", "weave the elder sign", "siphon time", "summon delerium elemental", "contaminated hands", "wall of force"],
 	features : {
 		"subclassfeature1" : {
 			name : "Delerium Spells",
-			source : [["SCGD", 170]],
+			source : [["SCGD", 171]],
 			minlevel : 1,
 			description : "\n   I gain extra always-known sorcerer spells that don't count against my spells known:" +
 			              "\n   1st: Comet Shards, Faerie Fire   3rd: Controlled Mutation, Grasping Ghost   5th: Vanish to the Space Between Worlds, Weave the Elder Sign" +
@@ -685,7 +686,7 @@ AddSubClass("sorcerer", "delerium soul", {
 		},
 		"subclassfeature1.1" : {
 			name : "Mutant Manifestation",
-			source : [["SCGD", 170]],
+			source : [["SCGD", 171]],
 			minlevel : 1,
 			description : "\n   When I finish a long rest I can roll twice on the Mutations table and pick one result; I gain that mutation" +
 			              "\n   until my next long rest, even if I have no Contamination Levels",
@@ -693,21 +694,21 @@ AddSubClass("sorcerer", "delerium soul", {
 		},
 		"subclassfeature6" : {
 			name : "Contaminated Sorcery",
-			source : [["SCGD", 170]],
+			source : [["SCGD", 171]],
 			minlevel : 6,
 			description : "\n   I can cast a Contaminated Spell with a spell slot, or by spending sorcery points equal to its level" +
 			              "\n   If I use sorcery points: no Contamination Level, delerium components aren't consumed, but it immediately causes an Arcane Anomaly"
 		},
 		"subclassfeature14" : {
 			name : "Incomprehensible Arcana",
-			source : [["SCGD", 170]],
+			source : [["SCGD", 171]],
 			minlevel : 14,
 			description : "\n   I can cast any spell from any class list, of a level I have slots for, expending a slot and providing components as normal" +
 			              "\n   Before it takes effect I gain Contamination Levels equal to half the spell's level (round down, min 1); I can't prevent these but can remove them normally"
 		},
 		"subclassfeature18" : {
 			name : "Chaos Theory",
-			source : [["SCGD", 170]],
+			source : [["SCGD", 171]],
 			minlevel : 18,
 			description : "\n   Once per turn, when I make an attack roll, ability check, or saving throw, I can trigger an Arcane Anomaly to roll with advantage" +
 			              "\n   Uses equal to my Charisma modifier (min 1), regained on a long rest",

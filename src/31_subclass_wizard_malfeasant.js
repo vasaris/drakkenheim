@@ -32,11 +32,11 @@ if (typeof SourceList["SCGD"] === "undefined") {
 AddSubClass("wizard", "malfeasant", {
 	regExpSearch : /malfeasant/i,
 	subname : "Malfeasant",
-	source : [["SCGD", 176]],
+	source : [["SCGD", 177]],
 	features : {
 		"subclassfeature2" : {
 			name : "Forbidden Study",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 2,
 			description : "\n   Whenever I gain a wizard level I can add one Contaminated Spell to my spellbook," +
 			              "\n   in addition to the two wizard spells I normally learn; I develop it through my own research" +
@@ -44,7 +44,7 @@ AddSubClass("wizard", "malfeasant", {
 		},
 		"subclassfeature2.1" : {
 			name : "Anomalous Materials",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 2,
 			description : "\n   I can cast a Contaminated Spell without gaining a Contamination Level; delerium material" +
 			              "\n   components aren't consumed (but I still provide them). Uses = my proficiency bonus, regained on a long rest",
@@ -53,21 +53,21 @@ AddSubClass("wizard", "malfeasant", {
 		},
 		"subclassfeature2.2" : {
 			name : "Horrific Potential",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 2,
 			description : "\n   If I undergo a Monstrous Transformation, the GM-chosen form must have CR at least half my level" +
 			              "\n   (rounded down) and no greater than my level"
 		},
 		"subclassfeature6" : {
 			name : "Expel Contaminants",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 6,
 			description : "\n   When I finish a long rest I can reduce my Contamination Level by half my proficiency bonus (rounded down)",
 			recovery : "long rest"
 		},
 		"subclassfeature6.1" : {
 			name : "Increased Threshold",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 6,
 			description : "\n   I gain proficiency in Constitution saving throws and resistance to necrotic damage" +
 			              "\n   For Contamination Symptoms I count as having half my current Contamination Level (round down)," +
@@ -78,20 +78,20 @@ AddSubClass("wizard", "malfeasant", {
 		},
 		"subclassfeature10" : {
 			name : "Contaminated Casting",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 10,
 			description : "\n   When I cast a spell that scales with higher slots, I can raise its level without a higher slot;" +
 			              "\n   I gain 1 Contamination Level per level raised. Not usable on Contaminated Spells, and not above my highest slot level"
 		},
 		"subclassfeature10.1" : {
 			name : "Stabilizing Focus",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 10,
 			description : "\n   While concentrating on a spell I ignore the Symptoms of any Contamination Levels I have, except a Monstrous Transformation"
 		},
 		"subclassfeature14" : {
 			name : "Apotheosis in Flesh",
-			source : [["SCGD", 176]],
+			source : [["SCGD", 177]],
 			minlevel : 14,
 			description : "\n   If I undergo a Monstrous Transformation I keep control of the new form for 1 minute" +
 			              "\n   Unless I die I revert after 24 hours; on reverting I gain a long rest's benefits and all Contamination Levels are removed" +

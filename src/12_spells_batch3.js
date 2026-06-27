@@ -48,7 +48,7 @@ SpellsList["corrosive blast"] = {
 SpellsList["fetid blade"] = {
 	name : "Fetid Blade",
 	classes : ["apothecary", "ranger", "sorcerer", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
 	time : "1 bns",
@@ -64,7 +64,7 @@ SpellsList["fetid blade"] = {
 SpellsList["pestilence"] = {
 	name : "Pestilence",
 	classes : ["apothecary", "cleric", "druid", "warlock", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Necro",
 	time : "1 a",
@@ -80,7 +80,7 @@ SpellsList["pestilence"] = {
 SpellsList["tranquilizing toxin"] = {
 	name : "Tranquilizing Toxin",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Evoc",
 	time : "1 a",
@@ -127,7 +127,7 @@ SpellsList["corpse explosion"] = {
 SpellsList["corrupting spores"] = {
 	name : "Corrupting Spores",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 189]],
+	source : [["SCGD", 190]],
 	level : 4,
 	school : "Necro",
 	time : "1 bns",
@@ -140,6 +140,7 @@ SpellsList["corrupting spores"] = {
 	descriptionFull : "Three poison mushrooms sprout in a 5-foot square within range. A creature that starts its turn within 10 feet of the patch makes a Constitution save or takes 1d8 poison damage per mushroom and is poisoned until the start of its next turn. On your turn you can use a bonus action to sprout one more mushroom in the patch." + "\n   At Higher Levels: one extra mushroom in the initial patch for each slot level above 4th."
 };
 
+// Book prints "above 5th" but Last Rites is a 4th-level spell — treated as a book typo, normalized to "above 4th".
 SpellsList["last rites"] = {
 	name : "Last Rites",
 	classes : ["apothecary", "cleric", "paladin"],

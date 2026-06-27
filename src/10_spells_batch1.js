@@ -63,7 +63,7 @@ SpellsList["biohazard"] = {
 SpellsList["grasping ghost"] = {
 	name : "Grasping Ghost",
 	classes : ["sorcerer", "warlock", "wizard"],
-	source : [["SCGD", 187]],
+	source : [["SCGD", 188]],
 	level : 2,
 	school : "Necro",
 	time : "1 a",
@@ -79,7 +79,7 @@ SpellsList["grasping ghost"] = {
 SpellsList["purge contamination"] = {
 	name : "Purge Contamination",
 	classes : ["apothecary", "cleric", "druid", "paladin", "wizard"],
-	source : [["SCGD", 188]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Abjur",
 	time : "1 h",
@@ -94,7 +94,7 @@ SpellsList["purge contamination"] = {
 SpellsList["acid rain"] = {
 	name : "Acid Rain",
 	classes : ["druid", "sorcerer", "wizard"],
-	source : [["SCGD", 190]],
+	source : [["SCGD", 191]],
 	level : 5,
 	school : "Conj",
 	time : "1 a",

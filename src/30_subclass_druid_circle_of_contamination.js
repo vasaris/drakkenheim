@@ -44,8 +44,8 @@ AddSubClass("druid", "circle of contamination", {
 			              "\n   (These leveled spells are Contaminated Spells; add the Contaminated Spells script to see them on the sheet)",
 			spellcastingBonus : [{
 				name : "Circle of Contamination",
-				spells : ["chill touch"],
-				selection : ["chill touch"],
+				spells : ["chill touch", "poison needle"],
+				selection : ["chill touch", "poison needle"],
 				firstCol : "atwill"
 			}]
 		},

@@ -63,7 +63,7 @@ SpellsList["controlled mutation"] = {
 SpellsList["venomous aura"] = {
 	name : "Venomous Aura",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 191]],
+	source : [["SCGD", 189]],
 	level : 3,
 	school : "Trans",
 	time : "1 bns",
@@ -78,7 +78,7 @@ SpellsList["venomous aura"] = {
 SpellsList["poison wave"] = {
 	name : "Poison Wave",
 	classes : ["apothecary", "druid", "sorcerer", "wizard"],
-	source : [["SCGD", 189]],
+	source : [["SCGD", 190]],
 	level : 4,
 	school : "Conj",
 	time : "1 a",
@@ -188,13 +188,13 @@ SpellsList["summon delerium elemental"] = {
 SpellsList["contaminated hands"] = {
 	name : "Contaminated Hands",
 	classes : ["sorcerer", "wizard"],
-	source : [["SCGD", 196]],
+	source : [["SCGD", 197]],
 	level : 5,
 	school : "Evoc",
 	time : "1 a",
 	range : "120 ft",
 	components : "V,S,M",
-	compMaterial : "a delerium fragment worth 100 gp",
+	compMaterial : "a delerium fragment worth 100 gp, consumed",
 	duration : "Conc, 1 min",
 	description : "[Contaminated: +1 Cont. Lvl] Create TWO Large octarine force hands (AC 20, HP = my max each); move 60 ft & each performs a forceful-hand effect; if either hits 0 HP the spell ends",
 	descriptionFull : "Contaminated: casting this spell gives you 1 Contamination Level. You create two Large hands of octarine force (each AC 20, HP equal to your hit point maximum, Strength 26, Dexterity 10). When you cast and as an action on later turns you move the hands up to 60 feet and have each take a forceful-hand effect (clenched-fist strike, grasp/grapple, push, or interpose), similar to a two-handed Arcane Hand. If either hand drops to 0 hit points, the spell ends."
