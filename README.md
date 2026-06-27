@@ -38,6 +38,10 @@ Built (SCGD):
 
 Planned: remaining Ch.4 spells (batches 4–6) · **Apothecary** class + 6 subclasses · 11 non-gated subclasses · tool feats · SCGD magic items · final merge audit.
 
+## Design notes
+
+**Summoned creatures are not given `CreatureList` stat blocks.** The two summon spells — *Summon the Thing with the Writhing Tail* ("Bruce") and *Summon Delerium Elemental* — conjure creatures whose AC, HP, Multiattack count, and damage are all parameterised by the spell's slot level (e.g. "AC 12 + the level of the spell"). MPMB's sheet has no hook for spell-slot level: a creature's `eval`/`changeeval` react to the **character's** level, not the slot used, and neither `CreatureList` nor `CompanionList` exposes a slot-level input. A static stat block would therefore show wrong numbers whenever the spell is upcast. So these creatures stay described in the casting spells' `descriptionFull` (with the scaling rules stated there), and the book stat block is referenced rather than reproduced — the same way MPMB handles the official Tasha's Cauldron summon spells. Revisit only if MPMB adds slot-level-aware companions.
+
 ## Attribution
 
 - CrimsonEdge7 — *Dungeons of Drakkenheim* MPMB script (external).
