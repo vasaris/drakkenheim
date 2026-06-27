@@ -1,0 +1,9 @@
+# Book source texts — never commit (copyright). Tooling reads them locally only.
+sources/*
+!sources/README.md
+*.pdf
+
+# Node / OS
+node_modules/
+.DS_Store
+*.log
