@@ -1,0 +1,13 @@
+{
+  "name": "drakkenheim-mpmb",
+  "version": "0.1.0",
+  "description": "Drakkenheim player options for MPMB's D&D 5e (2014) Character Record Sheet",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "validate": "node validate.js",
+    "build": "node build.js",
+    "validate:dist": "node validate.js dist/Drakkenheim.js"
+  },
+  "license": "UNLICENSED"
+}
