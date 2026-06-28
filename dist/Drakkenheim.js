@@ -1380,6 +1380,101 @@ ClassList["apothecary"] = {
 				]
 			}
 		},
+		"esoteric theories" : {
+			name : "Esoteric Theories",
+			source : [["SCGD", 136]],
+			minlevel : 2,
+			description : "\n   Use the \"Choose Feature\" button to add an Esoteric Theory (scraps of forbidden lore)" + "\n   On an apothecary level-up I may replace one theory I know with another I qualify for",
+			// Selectable pool, syntax per Battle Master Maneuvers / Eldritch Invocations (all_WotC). extraTimes = the book's "Theories Known" column (p.134).
+			// This batch holds ONLY the text-only theories; CALC/SPELL/NORMAL theories are added in later phases. prereq is encoded in the choice name AND a prereqeval.
+			extraname : "Esoteric Theory",
+			extrachoices : ["Adrenaline Surge (prereq: level 6 apothecary)", "Caustic Formulae (prereq: level 6 apothecary)", "Corrosive Compound (prereq: level 6 apothecary)", "Cosmetic Surgery", "Critical Condition (prereq: level 6 apothecary)", "Diagnosis", "Double Dose (prereq: level 10 apothecary)", "Nerve Agent (prereq: level 14 apothecary)", "Noxious Blood (prereq: level 6 apothecary)", "Physiological Analysis", "Putrefaction", "Rapid Response", "Subject Preparation (prereq: level 10 apothecary)", "Surgeon's Instinct", "Virulence"],
+			extraTimes : [0, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11],
+			"adrenaline surge (prereq: level 6 apothecary)" : {
+				name : "Adrenaline Surge",
+				source : [["SCGD", 137]],
+				description : "\n   When a creature at 0 HP regains HP from a spell I cast with an apothecary slot, until the end of its next turn it has resistance to all damage and advantage on saves, plus advantage on its first attack roll next turn (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 6; }
+			},
+			"caustic formulae (prereq: level 6 apothecary)" : {
+				name : "Caustic Formulae",
+				source : [["SCGD", 137]],
+				description : "\n   Once per turn when I damage a creature or object with an apothecary spell, I can expend an apothecary spell slot to deal +2d4 acid, plus another 2d4 per level of that slot (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 6; }
+			},
+			"corrosive compound (prereq: level 6 apothecary)" : {
+				name : "Corrosive Compound",
+				source : [["SCGD", 137]],
+				description : "\n   When I deal poison damage with an apothecary spell, I can deal half of it as poison and half as acid instead (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 6; }
+			},
+			"cosmetic surgery" : {
+				name : "Cosmetic Surgery",
+				source : [["SCGD", 137]],
+				description : "\n   I can spend 8 hours performing an occult surgery on a willing creature to permanently change its appearance (no change to its game statistics, size, or basic shape); greater restoration or similar magic can revert it"
+			},
+			"critical condition (prereq: level 6 apothecary)" : {
+				name : "Critical Condition",
+				source : [["SCGD", 137]],
+				description : "\n   When a creature rolls a natural 1 on a save against one of my damaging apothecary spells, I roll all the spell's damage dice twice and add them together, then add modifiers as normal (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 6; }
+			},
+			"diagnosis" : {
+				name : "Diagnosis",
+				source : [["SCGD", 137]],
+				description : "\n   I can take the Help action as a bonus action on my turn",
+				action : [["bonus action", " (Help)"]]
+			},
+			"double dose (prereq: level 10 apothecary)" : {
+				name : "Double Dose",
+				source : [["SCGD", 137]],
+				description : "\n   When I cast an apothecary spell with a slot that targets a single creature and restores its HP, I can target one additional creature within range",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 10; }
+			},
+			"nerve agent (prereq: level 14 apothecary)" : {
+				name : "Nerve Agent",
+				source : [["SCGD", 137]],
+				description : "\n   When I deal poison damage with my apothecary spells, I can choose to deal psychic damage instead (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 14; }
+			},
+			"noxious blood (prereq: level 6 apothecary)" : {
+				name : "Noxious Blood",
+				source : [["SCGD", 138]],
+				description : "\n   When a creature within 5 ft hits me with a melee attack, it takes poison damage equal to 1d6 + my Constitution modifier (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 6; }
+			},
+			"physiological analysis" : {
+				name : "Physiological Analysis",
+				source : [["SCGD", 138]],
+				description : "\n   If I spend at least 1 minute observing or interacting with a creature out of combat, the GM tells me two of: an ability score, AC, current HP, resistances, immunities, or vulnerabilities. Or I observe a corpse for 1 minute to learn its cause of death"
+			},
+			"putrefaction" : {
+				name : "Putrefaction",
+				source : [["SCGD", 138]],
+				description : "\n   My apothecary spells and abilities ignore undead creatures' resistance or immunity to poison damage and their immunity to the poisoned condition"
+			},
+			"rapid response" : {
+				name : "Rapid Response",
+				source : [["SCGD", 138]],
+				description : "\n   When I cast an apothecary spell that restores HP to a creature, before or after casting it I can move up to my speed without provoking opportunity attacks (apply by hand)"
+			},
+			"subject preparation (prereq: level 10 apothecary)" : {
+				name : "Subject Preparation",
+				source : [["SCGD", 138]],
+				description : "\n   When I hit a creature with a melee weapon attack, it has disadvantage on the next save it makes against an apothecary spell I cast before the end of my next turn (apply by hand)",
+				prereqeval : function (v) { return classes.known.apothecary.level >= 10; }
+			},
+			"surgeon's instinct" : {
+				name : "Surgeon's Instinct",
+				source : [["SCGD", 138]],
+				description : "\n   When I cast a spell using an apothecary spell slot or my Greater Formula that restores HP to a creature, it regains additional HP equal to my Intelligence modifier (add by hand)"
+			},
+			"virulence" : {
+				name : "Virulence",
+				source : [["SCGD", 139]],
+				description : "\n   When I roll a 1 on a damage die for an apothecary spell that deals poison damage, I can reroll the die; I must use the new result, even if it is a 1 (apply by hand)"
+			}
+		},
 		"miraculous recovery" : {
 			name : "Miraculous Recovery",
 			source : [["SCGD", 136]],
