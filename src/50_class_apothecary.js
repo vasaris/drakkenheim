@@ -132,7 +132,7 @@ ClassList["apothecary"] = {
 			name : "Apothecary Magic",
 			source : [["SCGD", 134]],
 			minlevel : 1,
-			description : "\n   I prepare Intelligence modifier + my apothecary level apothecary spells (minimum of one). All my apothecary spell slots are the SAME level and are regained on a SHORT or long rest (track the short rest manually).",
+			description : "\n   Intelligence is my spellcasting ability. I prepare a number of apothecary spells equal to my Intelligence modifier + my apothecary level (minimum of one). My spell slots are Pact-Magic-style: they are all the SAME level (it rises as I gain levels, capped at 5th), they are few, and I regain all of them on a SHORT or long rest (the sheet does not auto-restore them on a short rest, so do that by hand).",
 			// Override the prepared-spell COUNT to the book formula (SCGD p.135): Int mod + FULL apothecary level (min 1).
 			// MPMB's half-caster default is Int + floor(level/2); spellCalc adds the missing ceil(level/2) = level - floor(level/2) on "prepare".
 			// spellCalc syntax confirmed from real all_WotC code (Rod of the Pact Keeper, Blackstaff, etc.): function(type, spellcasters, ability) returning a number added to the calc for that type.
@@ -147,6 +147,14 @@ ClassList["apothecary"] = {
 					"I prepare a number of apothecary spells equal to my Intelligence modifier + my apothecary level (minimum of one)."
 				]
 			}
+		},
+		"miraculous recovery" : {
+			name : "Miraculous Recovery",
+			source : [["SCGD", 136]],
+			minlevel : 20,
+			description : "\n   Over 5 minutes, tending creatures with a healer's kit that has at least one use left (it expends a use), I let up to my Intelligence modifier creatures (which can include me) regain hit points, spell slots, hit dice, and other abilities as if they had finished a long rest. A creature can benefit from only one Miraculous Recovery per 24 hours. (The sheet will not auto-restore the slots/hit dice — apply that by hand.)",
+			usages : 1,
+			recovery : "long rest"
 		}
 	}
 
